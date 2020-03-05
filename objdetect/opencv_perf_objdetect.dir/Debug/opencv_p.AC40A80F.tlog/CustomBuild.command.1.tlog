@@ -1,0 +1,10 @@
+^C:\USERS\BUNGK\ONEDRIVE\DOCUMENTS\OPENCV-4.2.0\MODULES\OBJDETECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/BungK/OneDrive/Documents/opencv-4.2.0 -BC:/Users/BungK/OneDrive/Documents/opencv-4.2.0/build --check-stamp-file C:/Users/BungK/OneDrive/Documents/opencv-4.2.0/build/modules/objdetect/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

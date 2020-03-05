@@ -1,0 +1,20 @@
+^C:\USERS\BUNGK\ONEDRIVE\DOCUMENTS\OPENCV-4.2.0\BUILD\CMAKEFILES\CC62099406212B34E1C36B987623ABB3\OPENCL_KERNELS_OBJDETECT.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=objdetect -DCL_DIR=C:/Users/BungK/OneDrive/Documents/opencv-4.2.0/modules/objdetect/src/opencl -DOUTPUT=C:/Users/BungK/OneDrive/Documents/opencv-4.2.0/build/modules/objdetect/opencl_kernels_objdetect.cpp -P C:/Users/BungK/OneDrive/Documents/opencv-4.2.0/cmake/cl2cpp.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BUNGK\ONEDRIVE\DOCUMENTS\OPENCV-4.2.0\MODULES\OBJDETECT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/BungK/OneDrive/Documents/opencv-4.2.0 -BC:/Users/BungK/OneDrive/Documents/opencv-4.2.0/build --check-stamp-file C:/Users/BungK/OneDrive/Documents/opencv-4.2.0/build/modules/objdetect/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

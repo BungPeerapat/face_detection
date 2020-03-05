@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\BungK\OneDrive\Documents\opencv-4.2.0\modules\objdetect\test\opencl\test_hogdetector.cpp">
+      <Filter>Src\opencl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BungK\OneDrive\Documents\opencv-4.2.0\modules\objdetect\test\test_cascadeandhog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BungK\OneDrive\Documents\opencv-4.2.0\modules\objdetect\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BungK\OneDrive\Documents\opencv-4.2.0\modules\objdetect\test\test_qrcode.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\BungK\OneDrive\Documents\opencv-4.2.0\build\modules\objdetect\opencv_test_objdetect_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\BungK\OneDrive\Documents\opencv-4.2.0\modules\objdetect\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\BungK\OneDrive\Documents\opencv-4.2.0\modules\objdetect\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{EEFDC53D-7F24-310A-963B-9F9F9890CAFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{B7D1425C-2562-313B-BF6D-BC857F7CF180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{D82251BA-AB9A-3947-BBAA-6F652BDDFE07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
